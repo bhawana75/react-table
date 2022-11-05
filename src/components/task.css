@@ -1,0 +1,68 @@
+.body{
+    font-family: 'Jost', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     background-color: red;
+}
+
+.delete{
+    background-color: DarkRed;
+    border-color: DarkRed;
+}
+
+.edit{
+    background-color: DarkGreen;
+    border-color: DarkGreen;
+}
+
+.new{
+    
+    margin-right: 1350px; 
+}
+
+.search{
+    margin-left: 1000px;
+    margin-top: 10px;
+    font-size : 18px;
+}
+
+.input{
+    font-size : 18px;
+}
+
+body {
+    height: 50vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+
+
+
+.container1{
+  
+    display: flex;
+    width : 1440px;
+    
+}
+
+@media only screen and (max-width: 1440px){
+    .container1{
+        width: 375px;
+    }
+    .item-1{
+        margin-left: -200px;
+        
+    }
+    .item-2{
+        margin-left: -1470px;
+        height: 80px;
+        
+    }
+    .item-3{
+        margin-left: -200px;
+        
+        
+    }
+}
