@@ -17,9 +17,9 @@ function Add(){
     const[updated_at, setUpdatedAt] = useState('');
 
     
-    
     const sendDataToAPI = () => {
-        axios.post(`https://sheltered-sea-10901.herokuapp.com/products`, {
+        axios.post(
+          "https://sheltered-sea-10901.herokuapp.com/products", {
             product_name,
             category_name,
             description,
@@ -27,10 +27,8 @@ function Add(){
             status,
             created_at,
             updated_at
-        }).then(() => {
-            history.push("/");
-          })
-          
+        })
+          history("/");
     }
      
       
